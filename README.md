@@ -125,5 +125,42 @@ Below is the use case diagram representing the main actors and their interaction
 
 ![Booking System Use Case Diagram](alx-booking-uc.png)
 
+## Acceptance Criteria
+
+### What is Acceptance Criteria?
+
+Acceptance Criteria are the predefined conditions or statements that a software product must satisfy to be accepted by a user, customer, or other stakeholders. They define **"done"** for a particular feature and are typically written in plain, clear language to ensure a mutual understanding of expectations.
+
+### Importance of Acceptance Criteria in Requirement Analysis
+
+- ✅ **Clarity**: They eliminate ambiguity by clearly outlining what needs to be implemented.
+- 📋 **Alignment**: Keep developers, testers, and stakeholders on the same page.
+- 🧪 **Testability**: Serve as a basis for writing test cases and verifying that the feature works as expected.
+- 🚫 **Scope Control**: Help prevent scope creep by limiting the implementation to defined behavior.
+
+### Example: Acceptance Criteria for the Checkout Feature in the Booking Management System
+
+**Feature:** Checkout
+
+**As a** user,  
+**I want** to securely complete my booking and make payment,  
+**So that** I can confirm my reservation and receive a confirmation.
+
+#### Acceptance Criteria:
+
+- The user must be logged in to access the checkout page.
+- The checkout page should display a summary of the selected booking, including date, time, service, and cost.
+- The system must allow the user to choose a payment method (e.g., card, bank transfer).
+- The user should receive real-time validation for required fields (e.g., billing info, payment details).
+- Once payment is successful, the booking should be marked as “Confirmed” in the system.
+- The system must send a confirmation email to the user within 2 minutes of successful payment.
+- If payment fails, an error message must be displayed and the booking must remain in “Pending” status.
+
+---
+
+These criteria ensure that the **Checkout** feature works as expected, meets user needs, and is testable before being marked as complete.
+
+
+
 
 
