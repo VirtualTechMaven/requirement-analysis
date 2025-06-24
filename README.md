@@ -123,7 +123,7 @@ Use Case Diagrams are a type of Unified Modeling Language (UML) diagram that vis
 
 Below is the use case diagram representing the main actors and their interactions with the system:
 
-
+![Booking System Use Case Diagram](alx-booking-uc.png)
 
 
 
